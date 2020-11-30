@@ -21,4 +21,6 @@ public interface BookMapper {
 
     //查询全部的书
     List<Books> queryAllBooks();
+
+    Books searchBookByName(@Param("name") String name);
 }
